@@ -1,7 +1,8 @@
 export class BaseUserDto {
-  Email: string;
-  Username: string;
+  email: string;
+  username: string;
   password: string;
-  Role: string;
-  GamePreferences: string;
+  role: string;
+  gamePreferences: string[];
+  token: string;
 }
